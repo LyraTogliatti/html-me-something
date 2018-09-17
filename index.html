@@ -1,22 +1,24 @@
+<!doctype html>
 <html>
 
 <head>
 	<title>Lyra Togliatti - Inspiration</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<header>
-		<h1>The Games That Inspire Me</h1>
+		<h1 class="title">The Games That Inspire Me</h1>
 		<nav>
 			<section>
 				<p>
-				<a href="#bloodborne"><img src="images/bloodborne-logo.png", alt="Bloodborne logo"></a>
+				<a class="list" href="#bloodborne"><img src="images/bloodborne-logo.png", alt="Bloodborne logo"></a>
 				</p>
 				<p>
-				<a href="#nierautomata"><img src="images/nier-logo.png", alt="Nier: Automata logo"></a>
+				<a class="list" id="nier-spacing" href="#nierautomata"><img src="images/nier-logo.png", alt="Nier: Automata logo"></a>
 				</p>
 				<p>
-				<a href="#lifeisstrange"><img src="images/life-is-strange-logo.png" alt="Life is Strange logo"></a>
+				<a class="list" id="lis-spacing" href="#lifeisstrange"><img src="images/life-is-strange-logo.png" alt="Life is Strange logo"></a>
 				</p>
 			</section>
 		</nav>
@@ -26,11 +28,11 @@
 		<article>
 			<section>
 				<a name="bloodborne"></a>
-				<figure>
-					<img src="images/bloodborne-wp-c.jpg" alt="A dreary Yharnam sky">
-				</figure>
-				<h2>Bloodborne</h2>
-				<p>
+				<div class="container">
+					<img class="imgbox center-fit" src="images/bloodborne-wp-c.jpg" alt="A dreary Yharnam sky">
+				</div>
+				<img class="list" src="images/bloodborne-logo.png">
+				<p class="paragraph">
 				When I was a child, I would often wonder what secrets developers hid in the game
 				I was playing.  Programming and game development were worlds of infinite possibilities
 				and nothing gave me more of a drive to continue playing.  Bloodborne is the first game
@@ -42,26 +44,25 @@
 			</section>
 			<section>
 				<a name="nierautomata"></a>
-				<figure>
-					<img src="images/nier-wp-c.jpg" alt="A colorful amusement park">
-				</figure>
-				<h2>Nier: Automata</h2>
-				<p>
+				<div class="container">
+					<img class="imgbox center-fit" src="images/nier-wp-c.jpg" alt="A dreary Yharnam sky">
+				</div>
+				<img class="list" src="images/nier-logo.png">
+				<p class="paragraph">
 				Yoko Taro, Director at Square Enix, is rapidly becoming known for his works that ask
 				greater questions than media has previously answered.  With Nier, his beloved spinoff
-				to the Drakengard franchise, he asked his players a question of perspective in conflict - 
-				is "doing the right thing" an honest justification for atrocities committed?  In times
+				to the Drakengard franchise, he asked his players a question of perspective in conflict - in times
 				of war, can either side truly be in the right?  Nier: Automata elevates these ideas, telling
 				a complex story of human morals through the androids they've created.
 				</p>
 			</section>
 			<section>
 				<a name="lifeisstrange"></a>
-				<figure>
-					<img src="images/life-is-strange-wp-c.jpg" alt="A photographer in training">
-				</figure>
-				<h2>Life is Strange</h2>
-				<p>
+				<div class="container">
+					<img class="imgbox center-fit" src="images/life-is-strange-wp-c.jpg" alt="A dreary Yharnam sky">
+				</div>
+				<img class="list" src="images/life-is-strange-logo.png">
+				<p class="paragraph">
 				Few games have told a more "classic" story than Life is Strange while also breaking the
 				mold in depiction of human interaction.  Life is Strange is not afraid to tell its players
 				stories of queer characters, mental health issues, drug abuse - and succeeds at creating
@@ -71,7 +72,7 @@
 		</article>
 	</main>
 	<footer>
-		<p>Wow, thank you for reading this far!</p>
+		<p>Thank you for reading!</p>
 	</footer>
 </body>
 </html>
